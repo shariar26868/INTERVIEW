@@ -1,21 +1,21 @@
-# 🧠 Gut Microbiota Status Prediction
+# Gut Microbiota Status Prediction
 
 ## 📖 Project Overview
 This project aims to predict the **current status of gut microbiota** — classified as `Optimal`, `Suboptimal`, or `At Risk` — using structured health-related tabular data. It integrates cutting-edge deep learning models, including **TabTransformer**, alongside traditional machine learning algorithms such as **Logistic Regression**, **Random Forest**, and **XGBoost**.
 
 Key features:
-- 📊 Detailed Exploratory Data Analysis (EDA)
-- 🧹 Robust preprocessing pipeline with imputation, encoding, and normalization
-- ⚖️ Class imbalance handling with SMOTE
-- 🤖 Transformer-based modeling for tabular data
-- 🧠 SHAP-based interpretability for feature importance
-- 📈 Evaluation using accuracy, F1-score, AUC-ROC, and confusion matrices
+- Detailed Exploratory Data Analysis (EDA)
+- Robust preprocessing pipeline with imputation, encoding, and normalization
+- Class imbalance handling with SMOTE
+- Transformer-based modeling for tabular data
+- SHAP-based interpretability for feature importance
+- Evaluation using accuracy, F1-score, AUC-ROC, and confusion matrices
 
 Get ready for a **powerful and interactive** microbiota prediction journey!
 
 ---
 
-## 📂 Dataset Description
+## Dataset Description
 
 Each row in the dataset represents a patient's demographic, lifestyle, and health profile. Features are grouped into:
 
@@ -34,19 +34,12 @@ Each row in the dataset represents a patient's demographic, lifestyle, and healt
 - **Gastrointestinal Health**:  
   `Frequency of bowel movements`, `Stool consistency`, `Presence of bloating`, `gas`, `abdominal pain`
 
-### 🎯 Target Variable
+### Target Variable
 - **Current status of microbiota**:  
   A multiclass label with values:  
   `Optimal`, `Suboptimal`, `At Risk`
 
 ---
-
-### Features Overview
-- **Numerical**: `Height (cm)`, `Weight (kg)`, `BMI`, `Daily water intake (liters)`, `Average sleep hours (hours)`, etc.
-- **Categorical**: `Current diet`, `Physical activity type`
-- **Binary**: Symptoms like `Presence of bloating`, `Presence of gas`, `Presence of abdominal pain`, etc.
-- **Multi-value processed**: `Medical_conditions`, `Diagnosed conditions`, `Family history of diseases`, `Smoking status (Yes/No, quantity)`
-"""
 
 ## modeling_steps
 
