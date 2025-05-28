@@ -1,18 +1,45 @@
-# Project metadata
-## project_title = "Gut Microbiota Status Prediction"
-##description = (
-    "This project aims to predict the **current status of gut microbiota** — "
-    "`Optimal`, `Suboptimal`, or `At Risk` — using tabular health data. "
-    "Powered by advanced models like **TabTransformer** and baselines (Logistic Regression, "
-    "Random Forest, XGBoost), it delivers vibrant EDA, robust preprocessing, and interactive predictions. "
-    "Get ready for a JOOOOOOSSSSSSSSSSS experience! "
-)
+# 🧠 Gut Microbiota Status Prediction
 
-##Datavdescription
+## 📖 Project Overview
+This project aims to predict the **current status of gut microbiota** — classified as `Optimal`, `Suboptimal`, or `At Risk` — using structured health-related tabular data. It integrates cutting-edge deep learning models, including **TabTransformer**, alongside traditional machine learning algorithms such as **Logistic Regression**, **Random Forest**, and **XGBoost**.
 
-Each row in the dataset represents a patient’s health and lifestyle profile.
-The target column is:
-- **Current status of microbiota**: `Optimal`, `Suboptimal`, or `At Risk`
+Key features:
+- 📊 Detailed Exploratory Data Analysis (EDA)
+- 🧹 Robust preprocessing pipeline with imputation, encoding, and normalization
+- ⚖️ Class imbalance handling with SMOTE
+- 🤖 Transformer-based modeling for tabular data
+- 🧠 SHAP-based interpretability for feature importance
+- 📈 Evaluation using accuracy, F1-score, AUC-ROC, and confusion matrices
+
+Get ready for a **powerful and interactive** microbiota prediction journey!
+
+---
+
+## 📂 Dataset Description
+
+Each row in the dataset represents a patient's demographic, lifestyle, and health profile. Features are grouped into:
+
+- **Demographics**:  
+  `Height (cm)`, `Weight (kg)`, `BMI`
+
+- **Medical History**:  
+  `Medical conditions` (e.g., Diabetes, Hypertension), `Surgeries`, `Family history`
+
+- **Lifestyle**:  
+  `Physical activity type`, `Sleep hours`, `Stress level`, `Smoking status`
+
+- **Dietary Habits**:  
+  Weekly consumption of `vegetables`, `fermented foods`, `proteins`, `fruits`, `alcohol`, and `daily water intake`
+
+- **Gastrointestinal Health**:  
+  `Frequency of bowel movements`, `Stool consistency`, `Presence of bloating`, `gas`, `abdominal pain`
+
+### 🎯 Target Variable
+- **Current status of microbiota**:  
+  A multiclass label with values:  
+  `Optimal`, `Suboptimal`, `At Risk`
+
+---
 
 ### Features Overview
 - **Numerical**: `Height (cm)`, `Weight (kg)`, `BMI`, `Daily water intake (liters)`, `Average sleep hours (hours)`, etc.
