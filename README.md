@@ -43,14 +43,10 @@ modeling_steps = """## 🔁 Modeling Pipeline
 
 evaluation_results = """## 📈 Results
 
-| Model               | Accuracy | F1 Score |
-|--------------------|----------|----------|
-| Logistic Regression| 0.72     | 0.71     |
-| Random Forest      | 0.76     | 0.75     |
-| XGBoost            | 0.78     | 0.77     |
-| **TabTransformer** | **0.82** | **0.81** |
 
-> 📌 Best Model: `TabTransformer` (deep learning)
+![SHAP Summary](https://user-images.githubusercontent.com/12345678/172395838-d3efb4a3-999d-412f-b04a-947365dd9fc7.png)
+
+
 """
 
 # Enhanced prediction guide
@@ -98,9 +94,9 @@ Medical_conditions (e.g., None): Diabetes
 Predicted Microbiota Status: Suboptimal
 Predict another? (yes/no): No
 ```
-"""
 
-usage = """## 📖 Usage
+
+**Usage**
 
 1. **Run the Script**:
    - Execute `python_script.py` (TabTransformer implementation).
