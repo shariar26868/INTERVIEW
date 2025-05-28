@@ -44,8 +44,9 @@ modeling_steps = """## 🔁 Modeling Pipeline
 evaluation_results = """## 📈 Results
 
 
-![SHAP Summary](https://user-images.githubusercontent.com/12345678/172395838-d3efb4a3-999d-412f-b04a-947365dd9fc7.png)
 
+
+![qqqq](https://github.com/user-attachments/assets/d2f8bd97-cb3f-4067-9db3-6c1c8f9c41d6)
 
 """
 
