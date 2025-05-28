@@ -1,5 +1,5 @@
 # Project metadata
-project_title = "# Gut Microbiota Status Prediction 🌟\n"
+project_title = "# Gut Microbiota Status Prediction "
 description = (
     "This project aims to predict the **current status of gut microbiota** — "
     "`Optimal`, `Suboptimal`, or `At Risk` — using tabular health data. "
@@ -21,7 +21,7 @@ The target column is:
 - **Multi-value processed**: `Medical_conditions`, `Diagnosed conditions`, `Family history of diseases`, `Smoking status (Yes/No, quantity)`
 """
 
-modeling_steps = """## 🔁 Modeling Pipeline
+modeling_steps = Modeling Pipeline
 
 1. **EDA & Cleaning**
    - Null check, outlier visualization, label distribution
@@ -51,7 +51,7 @@ evaluation_results = """## 📈 Results
 """
 
 # Enhanced prediction guide
-prediction_guide = """## 🚀 How to Predict
+prediction_guide = How to Predict
 
 Use the trained TabTransformer model to predict gut microbiota status for new patients. The script prompts for input, with defaults for convenience. Multi-value columns (e.g., `Medical_conditions`) accept comma-separated values or random defaults (0–2 values).
 
