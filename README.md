@@ -1,5 +1,5 @@
 # Project metadata
-project_title = "# Gut Microbiota Status Prediction "
+project_title = "Gut Microbiota Status Prediction "
 description = (
     "This project aims to predict the **current status of gut microbiota** — "
     "`Optimal`, `Suboptimal`, or `At Risk` — using tabular health data. "
@@ -14,14 +14,14 @@ Each row in the dataset represents a patient’s health and lifestyle profile.
 The target column is:
 - **Current status of microbiota**: `Optimal`, `Suboptimal`, or `At Risk`
 
-### 🔢 Features Overview
+### Features Overview
 - **Numerical**: `Height (cm)`, `Weight (kg)`, `BMI`, `Daily water intake (liters)`, `Average sleep hours (hours)`, etc.
 - **Categorical**: `Current diet`, `Physical activity type`
 - **Binary**: Symptoms like `Presence of bloating`, `Presence of gas`, `Presence of abdominal pain`, etc.
 - **Multi-value processed**: `Medical_conditions`, `Diagnosed conditions`, `Family history of diseases`, `Smoking status (Yes/No, quantity)`
 """
 
-modeling_steps = Modeling Pipeline
+## modeling_steps
 
 1. **EDA & Cleaning**
    - Null check, outlier visualization, label distribution
@@ -41,7 +41,7 @@ modeling_steps = Modeling Pipeline
    - SHAP values plotted to explain predictions
 """
 
-evaluation_results = """## 📈 Results
+## Evaluation_results 
 
 
 
