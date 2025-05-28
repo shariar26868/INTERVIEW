@@ -1,14 +1,14 @@
 # Project metadata
-project_title = "Gut Microbiota Status Prediction "
-description = (
+## project_title = "Gut Microbiota Status Prediction"
+##description = (
     "This project aims to predict the **current status of gut microbiota** — "
     "`Optimal`, `Suboptimal`, or `At Risk` — using tabular health data. "
     "Powered by advanced models like **TabTransformer** and baselines (Logistic Regression, "
     "Random Forest, XGBoost), it delivers vibrant EDA, robust preprocessing, and interactive predictions. "
-    "Get ready for a JOOOOOOSSSSSSSSSSS experience! 😎\n"
+    "Get ready for a JOOOOOOSSSSSSSSSSS experience! "
 )
 
-data_description = """## 📊 Dataset Description
+##Datavdescription
 
 Each row in the dataset represents a patient’s health and lifestyle profile.
 The target column is:
